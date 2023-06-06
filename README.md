@@ -1,5 +1,5 @@
 ![image](https://github.com/e4a-dev/sedvit.art/assets/132167281/c7c12ee1-a1fd-47d6-895e-d326aaa8d100)
-# **      s e d v i t . a r t**
+# **s  e  d  v  i  t . a  r  t**
 ------
 ## About
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue ipsum nec risus pharetra, in volutpat augue mattis. Quisque ut nisl eu nibh lacinia iaculis. Aenean varius feugiat est id malesuada. Vivamus auctor purus arcu, bibendum fringilla justo sollicitudin gravida. Mauris in lobortis ligula. Proin placerat nulla a eros suscipit fermentum. Sed vestibulum imperdiet eros, vel iaculis ante pulvinar a. Donec vel nisl purus. Aenean fringilla sagittis libero, condimentum feugiat eros maximus nec. Integer sed finibus magna, vitae fringilla eros. Aliquam dignissim, augue nec faucibus vestibulum, augue mauris auctor ligula, in dapibus ex magna vel ante. Donec libero justo, imperdiet eu turpis vel, maximus efficitur erat. Integer aliquet porta lacus, quis bibendum velit. Phasellus at semper mi. In augue ipsum, facilisis sed tincidunt eget, varius nec nunc. Praesent fringilla odio quis suscipit egestas.
