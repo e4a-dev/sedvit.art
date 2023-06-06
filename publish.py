@@ -25,7 +25,7 @@ PRE_HEADER = """
 
 HEADER_TEMPLATE = """
 
-<link rel="stylesheet" type="text/css" href="$root/css/common-vendor.b8ecfc406ac0b5f77a26.css">
+<link rel="stylesheet" type="text/css" href="/var/css/common-vendor.b8ecfc406ac0b5f77a26.css">
 <link rel="stylesheet" type="text/css" href="$root/css/fretboard.f32f2a8d5293869f0195.css">
 <link rel="stylesheet" type="text/css" href="$root/css/pretty.0ae3265014f89d9850bf.css">
 <link rel="stylesheet" type="text/css" href="$root/css/pretty-vendor.83ac49e057c3eac4fce3.css">
@@ -370,7 +370,7 @@ if __name__ == '__main__':
         open(os.path.join('site', 'categories', category+'.html'), 'w').write(toc)
 
     open('site/feed.xml', 'w').write(feed)
-    open('site/index.html', 'w').write(make_toc(homepage_toc_items, global_config, categories))
+    open('index.html', 'w').write(make_toc(homepage_toc_items, global_config, categories))
 
     # Copy CSS and scripts files
     this_file_directory = os.path.dirname(__file__)
