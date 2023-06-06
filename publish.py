@@ -370,7 +370,7 @@ if __name__ == '__main__':
         open(os.path.join('site', 'categories', category+'.html'), 'w').write(toc)
 
     open('site/feed.xml', 'w').write(feed)
-    open('index.html', 'w').write(make_toc(homepage_toc_items, global_config, categories))
+    open('site/index.html', 'w').write(make_toc(homepage_toc_items, global_config, categories))
 
     # Copy CSS and scripts files
     this_file_directory = os.path.dirname(__file__)

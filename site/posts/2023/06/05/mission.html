@@ -1,0 +1,139 @@
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1c1c;
+        color: white;
+    }
+    .markdown-body table tr {
+        background-color: #1c1c1c;
+    }
+    .markdown-body table tr:nth-child(2n) {
+        background-color: black;
+    }
+}
+</style>
+
+
+
+<link rel="alternate" type="application/rss+xml" href="../../../../feed.xml" title="Mission">
+
+
+
+<link rel="stylesheet" type="text/css" href="/var/css/common-vendor.b8ecfc406ac0b5f77a26.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/fretboard.f32f2a8d5293869f0195.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/pretty.0ae3265014f89d9850bf.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/pretty-vendor.83ac49e057c3eac4fce3.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/global.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/misc.css">
+
+<script type="text/x-mathjax-config">
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\(', '\)']]
+  },
+  svg: {
+    fontCache: 'global',
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="../../../../scripts/tex-svg.js">
+</script>
+
+<style>
+</style>
+
+<div id="doc" class="container-fluid markdown-body comment-enabled" data-hard-breaks="true">
+
+<div id="color-mode-switch">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+  </svg>
+  <input type="checkbox" id="switch" />
+  <label for="switch">Dark Mode Toggle</label>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+  </svg>
+</div>
+
+<script type="text/javascript">
+  // Update root html class to set CSS colors
+  const toggleDarkMode = () => {
+    const root = document.querySelector('html');
+    root.classList.toggle('dark');
+  }
+
+  // Update local storage value for colorScheme
+  const toggleColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    if (colorScheme === 'light') localStorage.setItem('colorScheme', 'dark');
+    else localStorage.setItem('colorScheme', 'light');
+  }
+
+  // Set toggle input handler
+  const toggle = document.querySelector('#color-mode-switch input[type="checkbox"]');
+  if (toggle) toggle.onclick = () => {
+    toggleDarkMode();
+    toggleColorScheme();
+  }
+
+  // Check for color scheme on init
+  const checkColorScheme = () => {
+    const colorScheme = localStorage.getItem('colorScheme');
+    // Default to light for first view
+    if (colorScheme === null || colorScheme === undefined) localStorage.setItem('colorScheme', 'light');
+    // If previously saved to dark, toggle switch and update colors
+    if (colorScheme === 'dark') {
+      toggle.checked = true;
+      toggleDarkMode();
+    }
+  }
+  checkColorScheme();
+</script>
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Mission" />
+<meta name="twitter:image" content="http://sedvit.art/images/icon.png" />
+
+
+<br>
+<h1 style="margin-bottom:7px"> Mission </h1>
+<small style="float:left; color: #888"> 2023 Jun 05 </small>
+<small style="float:right; color: #888"><a href="../../../../index.html">See all posts</a></small>
+<br> <br> <br>
+<title> Mission </title>
+
+<h2 id="about">About</h2>
+<p>I bought my first bitcoin in 2012. I was desperate to find a certain empathy-inducing substance that was not available locally. So I sought out a solution using our greatest resource- the internet. Along the way I developed relationships with very interesting people via encrypted chat over Internet Relay Channels. I speak 4chan and I hodl dogecoin. irl people think I'm a hacker. I can handle a trezor and encrypt an addy if it's to be stored on a third party's server BUT my technical skills do not extend far beyond that. My reasons for sticking around the forums and chat rooms of this proprietary website was not for the illicit substances, it was for the relationships I was forming. Early on I realized most of my new digital friends were introverted computer scientists, autistic teenagers, extroverts with social anxiety and revolutionaries. Mostly everyone had addiction issues. Within the anonymity of the dark web I was able to drop my inhibitions and communicate honestly with these people because I had no fear of being discovered. I could be honest about myself. These people were different than everyone I grew up with, they were refusing to conform to societal norms. They were unapologetic. They were honest. With the support of this community I was able to shed the shell of who I was and scale into who I'm becoming. I knew there was something about these people that resonated deeply with me. In hindsight I believe I was being mentored for the impending blockchain revolution.</p>
+<h3 id="mission">Mission</h3>
+<p>Trailblazing the decentralized lifestyle and doing my best to document it. I'm not a great speaker. It is often difficult to form sentences from my thoughts. I prefer to speak in person because I believe in the vibes and energy exchange between people to be just as important as what's attempting to be communicated. With writing I can edit over and over so I can eventually get my point across, but I don't get to exchange energy.</p>
+<p>Turn the prison institution into an educational experience. Collaborating within CBP to build a series of certifications and organize a program within the IDOC that enables inmates to be blockchain certified and also offer courses in computer programming.</p>
+<p>Invite the thoughts leaders in the blockchain revolution for a coffee date and hit "record" on my zoomH6. Which is pretty much all I know how to do for a podcast. This is why I love and rely on the collaborative efforts of CBP.</p>
+<p>To encourage creativity and self-guided learning to foster innovation. To cultivate community beautification using eco-friendly and self-sustaining systems. To add value to the lives of the people I love and interact with.</p>
+<p>I believe blockchain technology has the potential to eradicate racism. As an early adopter we have the responsibility to shape.</p>
+<h3 id="pgp">PGP</h3>
+<pre><code>camillecorti@gmail.com</code></pre>
+<pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.22 (MingW32)
+mQENBGCR78gBCACdDjhKtxL+Xx5LDMHRRJvGReC0QNc5joRwlH0hP9jpj5OK/zHs
+1nBNiqz5Ir69/l4EgfmQHhIX7WT7Ha2RHAWNQHw2NII6rxD0S/GNfYqdY/d9LBB3
+ZsAx3JLL1ADE0UwMVD4WX4ihohcBSztw69Lneb3U/NLtixw2hgG5cDom/pouuYoB
+bP1YPHr6AS0nQq3C3NwgdNGyxO/8pBFIrIq38wJKHA0Us2wZt82316SFd/6XVgQp
+UYymPon3dPmVnGbLBSTbLFL1FlFmBletF8uqsMakVVft69wyr7AwNgyEM2NOz68f
+BtnuXq3pjOlYflfVrXbAnxycIjMazP3+p8VLABEBAAG0IENhbWlsbGUgPGNhbWls
+bGVjb3J0aUBnbWFpbC5jb20+iQE5BBMBAgAjBQJgke/IAhsPBwsJCAcDAgEGFQgC
+CQoLBBYCAwECHgECF4AACgkQthD7BKDa8SdmAwf/bKwO4B0j8xkDW0UdLKCF2XdM
+oyfJzvZN+ln/0FN2expeFdEkJqPt19uDQ/i/N99xIYtlx4OufuV3J+CA+Puyy3fd
+PowkBiJcHT3kgYI8IzlQTDhibTlibZokq1CtxZk9NpQtbPLlQoZ3oMJWc1uNGzg7
+QueNcypgGwaegdciBaOZtOnqtSscWoV0B3deAkfC0akITBaKsGS0rGGYDcgf0TuM
+YTEl9iqlwreymKxDLj/O5oO7Y/fRzoBudUNFibPGVKX+FrEJ9QPKeem8LYnvrW8J
+puQOJb5+lto4CEItuh5EeWdYi9xGMJWR5rdv81eHhFA22WfK5D3peUHm/rgc0A==
+=JOf9
+-----END PGP PUBLIC KEY BLOCK-----</code></pre>
+ </div> 

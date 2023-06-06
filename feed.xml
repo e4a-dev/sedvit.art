@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+<channel>
+  <title>Seducing Vitalik</title>
+  <link>sedvit.art/</link>
+  <description>Seducing Vitalik</description>
+  <image>
+      <url>http://sedvit.art/images/icon.png</url>
+      <title>Seducing Vitalik</title>
+      <link>sedvit.art/</link>
+  </image>
+
+<item>
+<title>Markdown Practice / Formatting Reference</title>
+<link>sedvit.art//var/www/html/site/2023/06/05/markdown-practice.html</link>
+<guid>sedvit.art//var/www/html/site/2023/06/05/markdown-practice.html</guid>
+<pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+<description></description>
+</item>
+
+
+<item>
+<title>here are some musings</title>
+<link>sedvit.art//var/www/html/site/2023/06/05/musings.html</link>
+<guid>sedvit.art//var/www/html/site/2023/06/05/musings.html</guid>
+<pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+<description></description>
+</item>
+
+
+<item>
+<title>Hello world</title>
+<link>sedvit.art//var/www/html/site/2020/10/24/hello.html</link>
+<guid>sedvit.art//var/www/html/site/2020/10/24/hello.html</guid>
+<pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+<description></description>
+</item>
+
+</channel>
+</rss>

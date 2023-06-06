@@ -1,4 +1,6 @@
 [title]: <> (Seducing Vitalik)
-[icon]: <> (http://sedvit.art/images/icon.png)
+[icon]: <> (http://sedvit.art/favicon.ico)
 [server]: <> (root@sedvit.art)
+[domain]: <> (sedvit.art)
 [website_root]: <> (/var/www/html/site)
+[posts_directory]: <> (/var/www/html/posts)
